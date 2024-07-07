@@ -14,6 +14,9 @@ const config: Config = {
       colors: {
         primary: '#1262DB',
       },
+      fontFamily: {
+        guerrilla: 'var(--guerrilla-font)',
+      },
     },
   },
   plugins: [require('tailwindcss-multi')],
