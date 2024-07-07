@@ -32,13 +32,16 @@ export default function About() {
         <Image src={thinkImg} alt='' />
         <div className='absolute inset-0 text-pretty pb-5 pl-10 pr-5 pt-14 font-guerrilla text-sm font-medium uppercase max-[490px]:multi-[text-xs;pt-8] sm:pl-24 sm:pr-16 sm:pt-20 sm:text-xl md:text-2xl lg:text-4xl xl:pt-24'>
           Drawing inspiration from the beloved frog character in the acclaimed
-          comic series The Night Riders by artist and illustrator Matt Furie,
-          published in 2012, $TOPPY is here to spark a meme revolution on TON.
-          With its mission to infuse meme culture with fresh, hilarious content,
-          $TOPPY is rapidly gaining fame and spreading joy across the internet.
-          The era of TON is just around the corner, and $TOPPY is leading the
-          charge with humor and creativity. Join the wave and be part of this
-          exciting movement!
+          comic series <span className='underline'>The Night Riders</span> by
+          artist and illustrator <span className='underline'>Matt Furie</span>,
+          published in 2012, <span className='text-secondary'>$TOPPY</span> is
+          here to spark a meme revolution on TON. With its mission to infuse
+          meme culture with fresh, hilarious content,
+          <span className='text-secondary'>$TOPPY</span> is rapidly gaining fame
+          and spreading joy across the internet. The era of TON is just around
+          the corner, and <span className='text-secondary'>$TOPPY</span> is
+          leading the charge with humor and creativity. Join the wave and be
+          part of this exciting movement!
         </div>
       </div>
     </div>

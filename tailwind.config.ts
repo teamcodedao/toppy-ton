@@ -13,6 +13,7 @@ const config: Config = {
       },
       colors: {
         primary: '#004ABA',
+        secondary: '#5C76FF',
       },
       fontFamily: {
         guerrilla: 'var(--guerrilla-font)',
