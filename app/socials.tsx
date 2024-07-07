@@ -6,7 +6,8 @@ export default function Socials() {
       className={clsx(
         'absolute inset-0 z-20 -mt-36 flex flex-col items-end -space-y-10 sm:-mt-44 xl:-mt-56 xl:space-y-0 2xl:max-w-[95%]',
         '*:multi-[scale-50;origin-bottom] sm:*:scale-75 2xl:*:scale-100',
-        '[&_a]:relative',
+        '[&_a]:multi-[relative;transition]',
+        'lg:[&_a:hover]:scale-110',
         '[&>*_img:last-child]:multi-[absolute;left-1/2;top-1/2;-translate-x-1/2;-translate-y-1/2;object-contain]'
       )}
     >

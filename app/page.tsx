@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import Heading from './heading';
 import Socials from './socials';
 import About from './about';
 import Tokenomics from './tokenomics';
@@ -16,8 +17,8 @@ export default function Home() {
       {/* Section */}
       <div>
         <div className='relative mx-auto max-w-screen-2xl px-5 pt-12 sm:pt-20'>
-          <h1 className='text-shadow relative z-10 text-center text-8xl uppercase text-primary [-webkit-text-stroke:1px_#000] sm:text-9xl'>
-            $TOPPY
+          <h1 className='text-shadow relative z-10 flex justify-center gap-px text-center text-8xl uppercase text-primary [-webkit-text-stroke:1px_#000] sm:text-9xl'>
+            <Heading />
           </h1>
           <Image
             src={toppy1Img}

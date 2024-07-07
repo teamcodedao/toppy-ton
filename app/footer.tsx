@@ -20,7 +20,7 @@ export default function Footer() {
           <a
             href={process.env.NEXT_PUBLIC_TELEGRAM_URL}
             target='_tele'
-            className='flex shrink-0 items-center rounded-[25px] border-[7px] border-white bg-[#11090995] px-5 py-3 text-5xl font-medium text-white sm:text-6xl lg:text-7xl xl:text-[85px]'
+            className='flex shrink-0 items-center rounded-[25px] border-[7px] border-white bg-[#11090995] px-5 py-3 text-5xl font-medium text-white transition hover:bg-[#110909] sm:text-6xl lg:text-7xl xl:text-[85px]'
           >
             <span className='-mt-4'>Join us</span>
             <img
