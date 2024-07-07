@@ -12,7 +12,7 @@ const config: Config = {
         '2xl': '1440px',
       },
       colors: {
-        primary: '#1262DB',
+        primary: '#004ABA',
       },
       fontFamily: {
         guerrilla: 'var(--guerrilla-font)',

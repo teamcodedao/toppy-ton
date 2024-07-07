@@ -2,10 +2,12 @@ import Image from 'next/image';
 
 import Socials from './socials';
 import About from './about';
+import Footer from './footer';
 
 import toppy1Img from './toppy-1.png';
 import toppy2Img from './toppy-2.svg';
 import grassImg from './grass.svg';
+import footerImg from './footer.png';
 
 export default function Home() {
   return (
@@ -63,6 +65,19 @@ export default function Home() {
           alt=''
           className='relative z-30 -mt-20 h-[155px] w-full object-cover'
         />
+      </div>
+
+      <div className='relative overflow-hidden'>
+        <Image
+          src={footerImg}
+          quality={50}
+          alt=''
+          fill
+          className='opacity-10 mix-blend-overlay'
+        />
+        <div className='mx-auto max-w-screen-2xl'>
+          <Footer />
+        </div>
       </div>
     </main>
   );
