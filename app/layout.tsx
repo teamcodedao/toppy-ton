@@ -14,7 +14,8 @@ const guerrillaFont = localFont({
 
 export const metadata: Metadata = {
   title: 'Toppy',
-  description: 'Toppy',
+  description:
+    'Drawing inspiration from the beloved frog character in the acclaimed comic series The Night Riders by artist and illustrator Matt Furie, published in 2012, $TOPPY is here to spark a meme revolution on TON.',
 };
 
 export default function RootLayout({
