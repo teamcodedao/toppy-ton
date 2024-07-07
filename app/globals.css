@@ -14,4 +14,8 @@ body {
   .text-shadow {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
+
+  .img-planes {
+    @apply object-contain object-top w-[200px] md:w-[300px] lg:w-[400px] xl:w-auto;
+  }
 }
