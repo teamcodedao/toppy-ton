@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 import Socials from './socials';
 import About from './about';
+import Tokenomics from './tokenomics';
 import Footer from './footer';
 
 import toppy1Img from './toppy-1.png';
@@ -64,6 +65,18 @@ export default function Home() {
           priority
           alt=''
           className='relative z-30 -mt-20 h-[155px] w-full object-cover'
+        />
+      </div>
+
+      <div>
+        <div className='mx-auto max-w-screen-2xl'>
+          <Tokenomics />
+        </div>
+        <Image
+          src={grassImg}
+          priority
+          alt=''
+          className='relative z-30 -mt-28 h-[155px] w-full object-cover'
         />
       </div>
 
