@@ -12,13 +12,13 @@ export default function Socials() {
       )}
     >
       <a
-        href={process.env.NEXT_PUBLIC_DEXS_URL}
-        target='_dexs'
+        href={process.env.NEXT_PUBLIC_DEDUST_URL}
+        target='_dedust'
         className='self-center'
       >
-        <img src='/socials/dexs-bg.svg' alt='' />
+        <img src='/socials/dedust-bg.svg' alt='' />
         <img
-          src='/socials/dexs.png'
+          src='/socials/dedust.png'
           alt=''
           className='size-[60px] rounded-full'
         />
